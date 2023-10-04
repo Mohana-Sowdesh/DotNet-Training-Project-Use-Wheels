@@ -1,5 +1,5 @@
 # DotNet-Training-Project-Use-Wheels
-Description To build APIs for second-hand cars selling site that displays various car models from different categories.
+Description: To build APIs for second-hand cars selling site that displays various car models from different categories.
 
 **Primary Actors involved**
 
@@ -41,4 +41,16 @@ Admin users [add category and vehicle to site]
     2. If there are no products/cars in the hop, display a user-friendly message.  
     3. Handle exceptions wherever necessary  
 
-Note: Custom error messages to be displayed to the user during error flows will be chosen by the developer   
+Note: Custom error messages to be displayed to the user during error flows will be chosen by the developer  
+
+**Additional Use case:**
+As our Government is focusing on reducing the vehicle related crimes.
+They had opened a self portal to help the second hand buyers their purchase is legit since most of the crime used/caused cars are been sold under second selling markets.
+https://65014f45736d26322f5b7b24.mockapi.io/cosmo/usedcars 
+ 
+The above link gives the cars info:
+    - The missing cars from the above portal should not be allowed to added into the store and the seller who tries to add it should be marked as Blacked and not allowed for any further actions in our website, only the admin is allowed to remove the blacked status of a seller.
+ 
+If a car is on trial the user should be warned and the respective disclaimer message need to be displayed.
+ 
+If a user decides to buy a car which is on trial it should have an offer of 18% of its selling price.
