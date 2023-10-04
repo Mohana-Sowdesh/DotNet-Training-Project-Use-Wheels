@@ -6,19 +6,19 @@ Description To build APIs for second-hand cars selling site that displays variou
 End-Users [buy vehicles from site]
 Admin users [add category and vehicle to site]
 
-**Use-cases:**
-**User Registration API**  
+**Use-cases:**      
+**User Registration API**       
 • There are two types of users – Admin and regular users. This registration portal is only for regular users of the application who wants to book cars on the platform.  
-• Get details of users like first name, last name, date of birth, gender, email address and password.  
-• Registration should be successful only if the user is above 18 years old, return appropriate response when registration request is initiated.  
+• Get details of users like first name, last name, date of birth, gender, email address and password.    
+• Registration should be successful only if the user is above 18 years old, return appropriate response when registration request is initiated.    
 
-**Login API**
+**Login API**        
 • Allow the user to login when the entered credentials are correct.  
-• If Incorrect credentials are used – show appropriate error response with status code.  
+• If Incorrect credentials are used – show appropriate error response with status code.   
 • Allow the user to logout when appropriate API is triggered.  
 • User should be logged out after 3hrs from login.  
 
-**E-Comm APIs**  
+**E-Comm APIs**          
 • Create CRUD APIs for Cars and Categories [Mandatory attributes can be cars pre-owner count, product image, RC number]. Feel free to include other attributes based on creativity/references.  
 • Create some sample test data based on any used-cars website of your choice.  
 • DB can be SQL or No-SQL DB  
