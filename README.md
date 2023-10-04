@@ -43,13 +43,12 @@ Admin users [add category and vehicle to site]
 
 Note: Custom error messages to be displayed to the user during error flows will be chosen by the developer  
 
-**Additional Use case:**
+**Additional Use case:**    
 As our Government is focusing on reducing the vehicle related crimes.
 They had opened a self portal to help the second hand buyers their purchase is legit since most of the crime used/caused cars are been sold under second selling markets.
 https://65014f45736d26322f5b7b24.mockapi.io/cosmo/usedcars 
  
-The above link gives the cars info:
-    - The missing cars from the above portal should not be allowed to added into the store and the seller who tries to add it should be marked as Blacked and not allowed for any further actions in our website, only the admin is allowed to remove the blacked status of a seller.
+The above link gives the cars info: The missing cars from the above portal should not be allowed to added into the store and the seller who tries to add it should be marked as Blacked and not allowed for any further actions in our website, only the admin is allowed to remove the blacked status of a seller.
  
 If a car is on trial the user should be warned and the respective disclaimer message need to be displayed.
  
